@@ -1,0 +1,1287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="58" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="58" fill="1" visible="no" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="fp3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
+<layer number="105" name="Beschreib" color="9" fill="1" visible="no" active="yes"/>
+<layer number="106" name="BGA-Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="107" name="BD-Top" color="5" fill="1" visible="no" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="no" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="133" name="mtFinish" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="134" name="mbFinish" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="135" name="mtGlue" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="136" name="mbGlue" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="137" name="mtTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="138" name="mbTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="139" name="mtKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="141" name="mtRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="143" name="mvRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="145" name="mHoles" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="146" name="mMilling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="147" name="mMeasures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="148" name="mDocument" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="149" name="mReference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="160" name="O_Dim" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
+<layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="no"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="no" active="no"/>
+<layer number="252" name="BR-BS" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="253" name="BR-LS" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="DO214AC">
+<description>&lt;b&gt;DO-214AC (SMA) Surface Mount Diode&lt;/b&gt;</description>
+<smd name="C" x="-2" y="0" dx="2.5" dy="1.7" layer="1"/>
+<smd name="A" x="2" y="0" dx="2.5" dy="1.7" layer="1"/>
+<wire x1="-2.15" y1="-1.03" x2="-2.15" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="-2.15" y1="-1.3" x2="2.15" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="2.15" y1="-1.3" x2="2.15" y2="-1.03" width="0.127" layer="21"/>
+<wire x1="-2.15" y1="1.03" x2="-2.15" y2="1.3" width="0.127" layer="21"/>
+<wire x1="-2.15" y1="1.3" x2="2.15" y2="1.3" width="0.127" layer="21"/>
+<wire x1="2.15" y1="1.3" x2="2.15" y2="1.03" width="0.127" layer="21"/>
+<wire x1="-2.15" y1="-1.03" x2="-2.15" y2="1.03" width="0.127" layer="51"/>
+<wire x1="2.15" y1="-1.03" x2="2.15" y2="1.03" width="0.127" layer="51"/>
+<rectangle x1="-1.65" y1="0.95" x2="-1.15" y2="1.3" layer="21"/>
+<rectangle x1="-1.65" y1="-1.3" x2="-1.15" y2="-0.95" layer="21"/>
+<rectangle x1="-1.65" y1="-0.95" x2="-1.15" y2="0.95" layer="51"/>
+<rectangle x1="-2.6" y1="-0.72" x2="-2.15" y2="0.72" layer="51"/>
+<rectangle x1="2.15" y1="-0.72" x2="2.6" y2="0.72" layer="51"/>
+<text x="-2.1" y="1.7" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.1" y="-3" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SOT143">
+<smd name="4" x="-0.911" y="0.911" dx="0.9" dy="0.8" layer="1" rot="R270"/>
+<smd name="3" x="0.989" y="0.911" dx="0.9" dy="0.8" layer="1" rot="R270"/>
+<smd name="2" x="0.989" y="-0.889" dx="0.9" dy="0.8" layer="1" rot="R270"/>
+<smd name="1" x="-0.711" y="-0.889" dx="1.2" dy="0.9" layer="1" rot="R180"/>
+<wire x1="-1.403" y1="0.665" x2="1.497" y2="0.665" width="0.127" layer="51"/>
+<wire x1="1.497" y1="0.665" x2="1.497" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="1.497" y1="-0.635" x2="-1.403" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="-1.403" y1="-0.635" x2="-1.403" y2="0.665" width="0.127" layer="21"/>
+<text x="-1.27" y="-2.54" size="0.8" layer="25" font="vector" ratio="15">&gt;NAME</text>
+</package>
+<package name="SOD-323">
+<wire x1="-1" y1="0.7" x2="1" y2="0.7" width="0.127" layer="21"/>
+<wire x1="1" y1="0.7" x2="1" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="1" y1="-0.7" x2="-1" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.7" x2="-1" y2="0.7" width="0.127" layer="51"/>
+<wire x1="-0.5" y1="0" x2="0.1" y2="0.4" width="0.127" layer="21"/>
+<wire x1="0.1" y1="0.4" x2="0.1" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="0.1" y1="-0.4" x2="-0.5" y2="0" width="0.127" layer="21"/>
+<text x="-1.1" y="1" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.1" y="-1.284" size="0.4064" layer="27">&gt;VALUE</text>
+<smd name="C" x="-1.35" y="0" dx="1" dy="0.6" layer="1"/>
+<smd name="A" x="1.35" y="0" dx="1" dy="0.6" layer="1"/>
+</package>
+<package name="SC70-3">
+<smd name="1" x="-0.65" y="-1" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="2" x="0.65" y="-1" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="3" x="0" y="1" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<text x="-1.27" y="-2.54" size="0.8" layer="25" ratio="15">&gt;NAME</text>
+<wire x1="1" y1="0.55" x2="-1" y2="0.55" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.55" x2="-1" y2="-0.55" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.55" x2="1" y2="-0.55" width="0.127" layer="51"/>
+<wire x1="1" y1="-0.55" x2="1" y2="0.55" width="0.127" layer="21"/>
+<rectangle x1="-0.775" y1="-1.05" x2="-0.525" y2="-0.6" layer="51"/>
+<rectangle x1="0.525" y1="-1.05" x2="0.775" y2="-0.6" layer="51"/>
+<rectangle x1="-0.125" y1="0.6" x2="0.125" y2="1.05" layer="51"/>
+<wire x1="-0.2" y1="-0.55" x2="0.2" y2="-0.55" width="0.127" layer="21"/>
+<wire x1="-1" y1="0.55" x2="-0.45" y2="0.55" width="0.127" layer="21"/>
+<wire x1="1" y1="0.55" x2="0.45" y2="0.55" width="0.127" layer="21"/>
+</package>
+<package name="SOT563">
+<smd name="1" x="-0.5" y="-0.675" dx="0.3" dy="0.45" layer="1" rot="R180"/>
+<wire x1="-0.8" y1="0.6" x2="0.8" y2="0.6" width="0.127" layer="51"/>
+<wire x1="0.8" y1="0.6" x2="0.8" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="0.8" y1="-0.6" x2="-0.8" y2="-0.6" width="0.127" layer="51"/>
+<wire x1="-0.8" y1="-0.6" x2="-0.8" y2="0.6" width="0.127" layer="21"/>
+<text x="-1.37" y="-2.04" size="0.8" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<smd name="2" x="0" y="-0.675" dx="0.3" dy="0.45" layer="1" rot="R180"/>
+<smd name="3" x="0.5" y="-0.675" dx="0.3" dy="0.45" layer="1" rot="R180"/>
+<smd name="4" x="0.5" y="0.675" dx="0.3" dy="0.45" layer="1"/>
+<smd name="5" x="0" y="0.675" dx="0.3" dy="0.45" layer="1"/>
+<smd name="6" x="-0.5" y="0.675" dx="0.3" dy="0.45" layer="1"/>
+<circle x="-1.1" y="-0.8" radius="0.2" width="0" layer="21"/>
+</package>
+<package name="SOT23">
+<smd name="1" x="-1.27" y="1.145" dx="1.27" dy="1.02" layer="1"/>
+<smd name="2" x="-1.27" y="-1.145" dx="1.27" dy="1.02" layer="1"/>
+<smd name="3" x="1.27" y="0" dx="1.27" dy="1.02" layer="1"/>
+<wire x1="-1.12" y1="-1.5" x2="1.12" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="1.12" y1="-1.5" x2="1.12" y2="1.5" width="0.127" layer="51"/>
+<wire x1="1.12" y1="1.5" x2="-1.12" y2="1.5" width="0.127" layer="51"/>
+<wire x1="-1.12" y1="1.5" x2="-1.12" y2="-1.5" width="0.127" layer="51"/>
+<text x="-3.0988" y="1.8748" size="1.016" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.1242" y="-3.048" size="1.016" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<wire x1="-0.4" y1="-1.5" x2="1.12" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.12" y1="-1.5" x2="1.12" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.12" y1="1.5" x2="-0.4" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1.12" y1="-0.4" x2="-1.12" y2="0.4" width="0.127" layer="21"/>
+</package>
+<package name="TVS0402">
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<wire x1="-0.25" y1="-0.25" x2="-0.25" y2="0.25" width="0" layer="51"/>
+<wire x1="-0.25" y1="0.25" x2="-0.5" y2="0.25" width="0" layer="51"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.25" y2="-0.25" width="0" layer="51"/>
+<wire x1="0.25" y1="0.25" x2="0.25" y2="-0.25" width="0" layer="51"/>
+<wire x1="0.25" y1="-0.25" x2="0.5" y2="-0.25" width="0" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.25" y2="0.25" width="0" layer="51"/>
+<wire x1="-0.25" y1="-0.25" x2="0.25" y2="-0.25" width="0" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="0.5" y2="0.25" width="0" layer="51"/>
+<wire x1="0.25" y1="0.25" x2="-0.25" y2="0.25" width="0" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="-0.5" y2="-0.25" width="0" layer="51"/>
+<text x="1" y="0" size="0.8" layer="25" font="vector" ratio="10" rot="SR0" align="center-left">&gt;NAME</text>
+<wire x1="-0.01" y1="0.25" x2="0.01" y2="0.25" width="0.127" layer="21"/>
+<wire x1="0.01" y1="-0.25" x2="-0.01" y2="-0.25" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TVS">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="TVS-BIDIRECTIONAL">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="3.81" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="TRIPLE-TVS">
+<pin name="C1" x="-5.08" y="5.08" visible="off" length="short" rot="R270"/>
+<pin name="C2" x="0" y="5.08" visible="off" length="short" rot="R270"/>
+<pin name="C3" x="5.08" y="5.08" visible="off" length="short" rot="R270"/>
+<pin name="A" x="0" y="-2.54" visible="off" length="short" rot="R90"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
+<text x="8.636" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="8.636" y="-0.889" size="1.778" layer="96">&gt;VALUE</text>
+<circle x="0" y="0" radius="0.381" width="0" layer="94"/>
+<wire x1="6.35" y1="1.27" x2="5.08" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="3.81" x2="3.81" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="3.81" x2="5.08" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="6.35" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="3.81" x2="6.35" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="6.35" y1="3.81" x2="6.35" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="0" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="0" y1="3.81" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="3.81" x2="0" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="3.81" x2="1.27" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="3.81" x2="1.27" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="-5.08" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="3.81" x2="-6.35" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="3.81" x2="-5.08" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="1.27" x2="-3.81" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="3.81" x2="-3.81" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="3.81" x2="-3.81" y2="3.175" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="DUAL-TVS">
+<pin name="C1" x="-2.54" y="5.08" visible="off" length="short" rot="R270"/>
+<pin name="C2" x="2.54" y="5.08" visible="off" length="short" rot="R270"/>
+<pin name="A" x="0" y="-2.54" visible="off" length="short" rot="R90"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<text x="6.096" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="6.096" y="-0.889" size="1.778" layer="96">&gt;VALUE</text>
+<circle x="0" y="0" radius="0.381" width="0" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="2.54" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="3.81" x2="2.54" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="3.81" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="3.81" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="3.81" x2="3.81" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-2.54" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="3.81" x2="-3.81" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="3.81" x2="-2.54" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="3.81" x2="-1.27" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="3.175" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="TVS-QUAD-CLAMP">
+<pin name="IO1" x="-12.7" y="0" visible="off" length="short" rot="R180"/>
+<pin name="VCC" x="0" y="7.62" visible="off" length="short" rot="R270"/>
+<pin name="IO4" x="12.7" y="0" visible="off" length="short"/>
+<pin name="GND" x="0" y="-7.62" visible="off" length="short" rot="R90"/>
+<wire x1="7.62" y1="-5.08" x2="0" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-7.62" y2="-5.08" width="0.1524" layer="94"/>
+<text x="18.796" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="18.796" y="-0.889" size="1.778" layer="96">&gt;VALUE</text>
+<circle x="0" y="-5.08" radius="0.381" width="0" layer="94"/>
+<wire x1="8.89" y1="1.27" x2="7.62" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="3.81" x2="6.35" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="6.35" y1="3.81" x2="7.62" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="6.35" y1="1.27" x2="8.89" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="3.81" x2="8.89" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="-1.27" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="1.27" x2="-7.62" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="3.81" x2="-8.89" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-8.89" y1="3.81" x2="-7.62" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-8.89" y1="1.27" x2="-6.35" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="3.81" x2="-6.35" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="0" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="-3.81" x2="7.62" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-1.27" x2="6.35" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="6.35" y1="-1.27" x2="7.62" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="6.35" y1="-3.81" x2="8.89" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-1.27" x2="8.89" y2="-1.27" width="0.1524" layer="94"/>
+<circle x="0" y="5.08" radius="0.381" width="0" layer="94"/>
+<wire x1="-6.35" y1="-3.81" x2="-7.62" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-1.27" x2="-8.89" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-8.89" y1="-1.27" x2="-7.62" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-8.89" y1="-3.81" x2="-6.35" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-1.27" x2="-6.35" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="7.62" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="16.51" y1="1.27" x2="15.24" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="3.81" x2="13.97" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="13.97" y1="3.81" x2="15.24" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="13.97" y1="1.27" x2="16.51" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="3.81" x2="16.51" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="15.24" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="5.08" x2="15.24" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="16.51" y1="-3.81" x2="15.24" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-1.27" x2="13.97" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="13.97" y1="-1.27" x2="15.24" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="13.97" y1="-3.81" x2="16.51" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-1.27" x2="16.51" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-15.24" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-13.97" y1="1.27" x2="-15.24" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="3.81" x2="-16.51" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-16.51" y1="3.81" x2="-15.24" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-16.51" y1="1.27" x2="-13.97" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="3.81" x2="-13.97" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="5.08" x2="-7.62" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="5.08" x2="-15.24" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-13.97" y1="-3.81" x2="-15.24" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-1.27" x2="-16.51" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-16.51" y1="-1.27" x2="-15.24" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-16.51" y1="-3.81" x2="-13.97" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-1.27" x2="-13.97" y2="-1.27" width="0.1524" layer="94"/>
+<circle x="-7.62" y="-5.08" radius="0.381" width="0" layer="94"/>
+<circle x="7.62" y="-5.08" radius="0.381" width="0" layer="94"/>
+<circle x="7.62" y="5.08" radius="0.381" width="0" layer="94"/>
+<circle x="-7.62" y="5.08" radius="0.381" width="0" layer="94"/>
+<pin name="IO2" x="-5.08" y="0" visible="off" length="short" rot="R180"/>
+<pin name="IO3" x="5.08" y="0" visible="off" length="short"/>
+<circle x="-7.62" y="0" radius="0.381" width="0" layer="94"/>
+<circle x="-15.24" y="0" radius="0.381" width="0" layer="94"/>
+<circle x="7.62" y="0" radius="0.381" width="0" layer="94"/>
+<circle x="15.24" y="0" radius="0.381" width="0" layer="94"/>
+</symbol>
+<symbol name="DUAL-TVS-BIDIRECTIONAL">
+<pin name="C1" x="-2.54" y="7.62" visible="off" length="short" rot="R270"/>
+<pin name="C2" x="2.54" y="7.62" visible="off" length="short" rot="R270"/>
+<pin name="A" x="0" y="-2.54" visible="off" length="short" rot="R90"/>
+<wire x1="2.54" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<text x="6.096" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="6.096" y="-0.889" size="1.778" layer="96">&gt;VALUE</text>
+<circle x="0" y="0" radius="0.381" width="0" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="2.54" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="3.81" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="3.81" x2="3.81" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-2.54" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="3.81" x2="-3.81" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="6.35" x2="-2.54" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="3.81" x2="-1.27" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="3.81" x2="-2.54" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="6.35" x2="-3.81" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="3.81" x2="-3.81" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="3.81" x2="-3.81" y2="4.445" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="6.35" x2="2.54" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="3.81" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="3.81" x2="2.54" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="6.35" x2="1.27" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="1.27" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="3.81" x2="1.27" y2="4.445" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SMAJ*A" prefix="D">
+<description>&lt;b&gt;SMAJ Series&lt;/b&gt; TVS Diodes&lt;br&gt;
+&lt;br&gt;
+Source: &lt;a href="http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf"&gt;http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TVS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DO214AC">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="10">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ10A" constant="no"/>
+<attribute name="OC_FARNELL" value="2371136" constant="no"/>
+<attribute name="OC_NEWARK" value="31T1589" constant="no"/>
+</technology>
+<technology name="100">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ100A" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="06R1839" constant="no"/>
+</technology>
+<technology name="11">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ11A" constant="no"/>
+<attribute name="OC_FARNELL" value="1677569" constant="no"/>
+<attribute name="OC_NEWARK" value="71J1929" constant="no"/>
+</technology>
+<technology name="110">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ110A" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="12">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ12A" constant="no"/>
+<attribute name="OC_FARNELL" value="1827602" constant="no"/>
+<attribute name="OC_NEWARK" value="71J1937" constant="no"/>
+</technology>
+<technology name="120">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ120A" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="72R7029" constant="no"/>
+</technology>
+<technology name="13">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ13A" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="71J1945" constant="no"/>
+</technology>
+<technology name="130">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ130A" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="14">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ14A" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="64T2593" constant="no"/>
+</technology>
+<technology name="15">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ15A" constant="no"/>
+<attribute name="OC_FARNELL" value="1886343" constant="no"/>
+<attribute name="OC_NEWARK" value="06R1847" constant="no"/>
+</technology>
+<technology name="150">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ150A" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="06R1849" constant="no"/>
+</technology>
+<technology name="16">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ16A" constant="no"/>
+<attribute name="OC_FARNELL" value="1677577" constant="no"/>
+<attribute name="OC_NEWARK" value="71J1965" constant="no"/>
+</technology>
+<technology name="160">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ160A" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="17">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ17A" constant="no"/>
+<attribute name="OC_FARNELL" value="1685140" constant="no"/>
+<attribute name="OC_NEWARK" value="71J1973" constant="no"/>
+</technology>
+<technology name="170">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ170A" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="18">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ18A" constant="no"/>
+<attribute name="OC_FARNELL" value="1787557" constant="no"/>
+<attribute name="OC_NEWARK" value="06R1855" constant="no"/>
+</technology>
+<technology name="180">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ180A" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="68X5028" constant="no"/>
+</technology>
+<technology name="20">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ20A" constant="no"/>
+<attribute name="OC_FARNELL" value="2371138" constant="no"/>
+<attribute name="OC_NEWARK" value="06R1857" constant="no"/>
+</technology>
+<technology name="200">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ200A" constant="no"/>
+<attribute name="OC_FARNELL" value="1827603" constant="no"/>
+<attribute name="OC_NEWARK" value="26K7392" constant="no"/>
+</technology>
+<technology name="22">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ22A" constant="no"/>
+<attribute name="OC_FARNELL" value="1787101" constant="no"/>
+<attribute name="OC_NEWARK" value="06R1861" constant="no"/>
+</technology>
+<technology name="220">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ220A" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="24">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ24A" constant="no"/>
+<attribute name="OC_FARNELL" value="1886345" constant="no"/>
+<attribute name="OC_NEWARK" value="06R1865" constant="no"/>
+</technology>
+<technology name="250">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ250A" constant="no"/>
+<attribute name="OC_FARNELL" value="1886346" constant="no"/>
+<attribute name="OC_NEWARK" value="64T2594" constant="no"/>
+</technology>
+<technology name="26">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ26A" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="71J1997" constant="no"/>
+</technology>
+<technology name="28">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ28A" constant="no"/>
+<attribute name="OC_FARNELL" value="1827604" constant="no"/>
+<attribute name="OC_NEWARK" value="71J2001" constant="no"/>
+</technology>
+<technology name="30">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ30A" constant="no"/>
+<attribute name="OC_FARNELL" value="1827605" constant="no"/>
+<attribute name="OC_NEWARK" value="71J2005" constant="no"/>
+</technology>
+<technology name="300">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ300A" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="26K7404" constant="no"/>
+</technology>
+<technology name="33">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ33A" constant="no"/>
+<attribute name="OC_FARNELL" value="1827606" constant="no"/>
+<attribute name="OC_NEWARK" value="71J2009" constant="no"/>
+</technology>
+<technology name="350">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ350A" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="36">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ36A" constant="no"/>
+<attribute name="OC_FARNELL" value="2371140" constant="no"/>
+<attribute name="OC_NEWARK" value="06R1877" constant="no"/>
+</technology>
+<technology name="40">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ40A" constant="no"/>
+<attribute name="OC_FARNELL" value="2368480" constant="no"/>
+<attribute name="OC_NEWARK" value="71J2017" constant="no"/>
+</technology>
+<technology name="400">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ400A" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="06R1881" constant="no"/>
+</technology>
+<technology name="43">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ43A" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="440">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ440A" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="72R7030" constant="no"/>
+</technology>
+<technology name="45">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ45A" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="06R1883" constant="no"/>
+</technology>
+<technology name="48">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ48A" constant="no"/>
+<attribute name="OC_FARNELL" value="1677589" constant="no"/>
+<attribute name="OC_NEWARK" value="71J2025" constant="no"/>
+</technology>
+<technology name="5.0">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ5.0A" constant="no"/>
+<attribute name="OC_FARNELL" value="1827607" constant="no"/>
+<attribute name="OC_NEWARK" value="71J2029" constant="no"/>
+</technology>
+<technology name="51">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ51A" constant="no"/>
+<attribute name="OC_FARNELL" value="1787107" constant="no"/>
+<attribute name="OC_NEWARK" value="06R1889" constant="no"/>
+</technology>
+<technology name="54">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ54A" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="06R1891" constant="no"/>
+</technology>
+<technology name="58">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ58A" constant="no"/>
+<attribute name="OC_FARNELL" value="1886349" constant="no"/>
+<attribute name="OC_NEWARK" value="71J2041" constant="no"/>
+</technology>
+<technology name="6.0">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ6.0A" constant="no"/>
+<attribute name="OC_FARNELL" value="1677594" constant="no"/>
+<attribute name="OC_NEWARK" value="71J2045" constant="no"/>
+</technology>
+<technology name="6.5">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ6.5A" constant="no"/>
+<attribute name="OC_FARNELL" value="1787108" constant="no"/>
+<attribute name="OC_NEWARK" value="06R1897" constant="no"/>
+</technology>
+<technology name="60">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ60A" constant="no"/>
+<attribute name="OC_FARNELL" value="1677596" constant="no"/>
+<attribute name="OC_NEWARK" value="71J2053" constant="no"/>
+</technology>
+<technology name="64">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ64A" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="7.0">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ7.0A" constant="no"/>
+<attribute name="OC_FARNELL" value="1677598" constant="no"/>
+<attribute name="OC_NEWARK" value="71J2061" constant="no"/>
+</technology>
+<technology name="7.5">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ7.5A" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="06R1903" constant="no"/>
+</technology>
+<technology name="70">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ70A" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="75">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ75A" constant="no"/>
+<attribute name="OC_FARNELL" value="1787112" constant="no"/>
+<attribute name="OC_NEWARK" value="06R1905" constant="no"/>
+</technology>
+<technology name="78">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ78A" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="8.0">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ8.0A" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="8.5">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ8.5A" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="85">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ85A" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="9.0">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ9.0A" constant="no"/>
+<attribute name="OC_FARNELL" value="1787114" constant="no"/>
+<attribute name="OC_NEWARK" value="06R1909" constant="no"/>
+</technology>
+<technology name="90">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ90A" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SMAJ*CA" prefix="D">
+<description>&lt;b&gt;SMAJ Series&lt;/b&gt; TVS Diodes&lt;br&gt;
+&lt;br&gt;
+Source: &lt;a href="http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf"&gt;http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TVS-BIDIRECTIONAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DO214AC">
+<connects>
+<connect gate="G$1" pin="1" pad="A"/>
+<connect gate="G$1" pin="2" pad="C"/>
+</connects>
+<technologies>
+<technology name="10">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ10CA" constant="no"/>
+<attribute name="OC_FARNELL" value="1816861" constant="no"/>
+<attribute name="OC_NEWARK" value="72R7028" constant="no"/>
+</technology>
+<technology name="100">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ100CA" constant="no"/>
+<attribute name="OC_FARNELL" value="1794245" constant="no"/>
+<attribute name="OC_NEWARK" value="06R1840" constant="no"/>
+</technology>
+<technology name="11">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ11CA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="71J1931" constant="no"/>
+</technology>
+<technology name="110">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ110CA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="12">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ12CA" constant="no"/>
+<attribute name="OC_FARNELL" value="1827669" constant="no"/>
+<attribute name="OC_NEWARK" value="71J1939" constant="no"/>
+</technology>
+<technology name="120">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ120CA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="13">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ13CA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="71J1947" constant="no"/>
+</technology>
+<technology name="130">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ130CA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="14">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ14CA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="15">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ15CA" constant="no"/>
+<attribute name="OC_FARNELL" value="1827670" constant="no"/>
+<attribute name="OC_NEWARK" value="71J1959" constant="no"/>
+</technology>
+<technology name="150">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ150CA" constant="no"/>
+<attribute name="OC_FARNELL" value="1794247" constant="no"/>
+<attribute name="OC_NEWARK" value="06R1850" constant="no"/>
+</technology>
+<technology name="16">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ16CA" constant="no"/>
+<attribute name="OC_FARNELL" value="1787096" constant="no"/>
+<attribute name="OC_NEWARK" value="06R1852" constant="no"/>
+</technology>
+<technology name="160">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ160CA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="17">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ17CA" constant="no"/>
+<attribute name="OC_FARNELL" value="1787097" constant="no"/>
+<attribute name="OC_NEWARK" value="06R1854" constant="no"/>
+</technology>
+<technology name="170">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ170CA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="85R4930" constant="no"/>
+</technology>
+<technology name="18">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ18CA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="06R1856" constant="no"/>
+</technology>
+<technology name="180">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ180CA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="20">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ20CA" constant="no"/>
+<attribute name="OC_FARNELL" value="1677578" constant="no"/>
+<attribute name="OC_NEWARK" value="71J1987" constant="no"/>
+</technology>
+<technology name="200">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ200CA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="26K7394" constant="no"/>
+</technology>
+<technology name="22">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ22CA" constant="no"/>
+<attribute name="OC_FARNELL" value="1827671" constant="no"/>
+<attribute name="OC_NEWARK" value="71J1991" constant="no"/>
+</technology>
+<technology name="220">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ220CA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="26K7398" constant="no"/>
+</technology>
+<technology name="24">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ24CA" constant="no"/>
+<attribute name="OC_FARNELL" value="1677579" constant="no"/>
+<attribute name="OC_NEWARK" value="71J1995" constant="no"/>
+</technology>
+<technology name="250">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ250CA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="64T2595" constant="no"/>
+</technology>
+<technology name="26">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ26CA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="71J1999" constant="no"/>
+</technology>
+<technology name="28">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ28CA" constant="no"/>
+<attribute name="OC_FARNELL" value="1685142" constant="no"/>
+<attribute name="OC_NEWARK" value="71J2003" constant="no"/>
+</technology>
+<technology name="30">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ30CA" constant="no"/>
+<attribute name="OC_FARNELL" value="1827672" constant="no"/>
+<attribute name="OC_NEWARK" value="71J2007" constant="no"/>
+</technology>
+<technology name="300">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ300CA" constant="no"/>
+<attribute name="OC_FARNELL" value="1787103" constant="no"/>
+<attribute name="OC_NEWARK" value="06R1874" constant="no"/>
+</technology>
+<technology name="33">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ33CA" constant="no"/>
+<attribute name="OC_FARNELL" value="1677587" constant="no"/>
+<attribute name="OC_NEWARK" value="71J2011" constant="no"/>
+</technology>
+<technology name="350">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ350CA" constant="no"/>
+<attribute name="OC_FARNELL" value="1787630" constant="no"/>
+<attribute name="OC_NEWARK" value="29R0819" constant="no"/>
+</technology>
+<technology name="36">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ36CA" constant="no"/>
+<attribute name="OC_FARNELL" value="1677588" constant="no"/>
+<attribute name="OC_NEWARK" value="71J2015" constant="no"/>
+</technology>
+<technology name="40">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ40CA" constant="no"/>
+<attribute name="OC_FARNELL" value="1827675" constant="no"/>
+<attribute name="OC_NEWARK" value="71J2019" constant="no"/>
+</technology>
+<technology name="400">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ400CA" constant="no"/>
+<attribute name="OC_FARNELL" value="1827673" constant="no"/>
+<attribute name="OC_NEWARK" value="84R0553" constant="no"/>
+</technology>
+<technology name="43">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ43CA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="440">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ440CA" constant="no"/>
+<attribute name="OC_FARNELL" value="1787631" constant="no"/>
+<attribute name="OC_NEWARK" value="29R0820" constant="no"/>
+</technology>
+<technology name="45">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ45CA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="71J2023" constant="no"/>
+</technology>
+<technology name="48">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ48CA" constant="no"/>
+<attribute name="OC_FARNELL" value="1886347" constant="no"/>
+<attribute name="OC_NEWARK" value="71J2027" constant="no"/>
+</technology>
+<technology name="5.0">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ5.0CA" constant="no"/>
+<attribute name="OC_FARNELL" value="1886348" constant="no"/>
+<attribute name="OC_NEWARK" value="71J2031" constant="no"/>
+</technology>
+<technology name="51">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ51CA" constant="no"/>
+<attribute name="OC_FARNELL" value="2368484" constant="no"/>
+<attribute name="OC_NEWARK" value="71J2035" constant="no"/>
+</technology>
+<technology name="54">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ54CA" constant="no"/>
+<attribute name="OC_FARNELL" value="1685148" constant="no"/>
+<attribute name="OC_NEWARK" value="71J2039" constant="no"/>
+</technology>
+<technology name="58">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ58CA" constant="no"/>
+<attribute name="OC_FARNELL" value="1685149" constant="no"/>
+<attribute name="OC_NEWARK" value="71J2043" constant="no"/>
+</technology>
+<technology name="6.0">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ6.0CA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="71J2047" constant="no"/>
+</technology>
+<technology name="6.5">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ6.5CA" constant="no"/>
+<attribute name="OC_FARNELL" value="1677595" constant="no"/>
+<attribute name="OC_NEWARK" value="71J2051" constant="no"/>
+</technology>
+<technology name="60">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ60CA" constant="no"/>
+<attribute name="OC_FARNELL" value="1685151" constant="no"/>
+<attribute name="OC_NEWARK" value="71J2055" constant="no"/>
+</technology>
+<technology name="64">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ64CA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="7.0">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ7.0CA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="06R1902" constant="no"/>
+</technology>
+<technology name="7.5">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ7.5CA" constant="no"/>
+<attribute name="OC_FARNELL" value="1677599" constant="no"/>
+<attribute name="OC_NEWARK" value="71J2067" constant="no"/>
+</technology>
+<technology name="70">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ70CA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="75">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ75CA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="06R1906" constant="no"/>
+</technology>
+<technology name="78">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ78CA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="8.0">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ8.0CA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="8.5">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ8.5CA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="06R1908" constant="no"/>
+</technology>
+<technology name="85">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ85CA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="9.0">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ9.0CA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="06R1910" constant="no"/>
+</technology>
+<technology name="90">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SMAJ90CA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SP0503BAHT" prefix="D">
+<gates>
+<gate name="G$1" symbol="TRIPLE-TVS" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="SOT143">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C1" pad="2"/>
+<connect gate="G$1" pin="C2" pad="3"/>
+<connect gate="G$1" pin="C3" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PESD5V0S1BA" prefix="D">
+<gates>
+<gate name="G$1" symbol="TVS-BIDIRECTIONAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD-323">
+<connects>
+<connect gate="G$1" pin="1" pad="A"/>
+<connect gate="G$1" pin="2" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SP0502BAJT" prefix="D">
+<gates>
+<gate name="G$1" symbol="DUAL-TVS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SC70-3">
+<connects>
+<connect gate="G$1" pin="A" pad="3"/>
+<connect gate="G$1" pin="C1" pad="1"/>
+<connect gate="G$1" pin="C2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SP3004-04XTG" prefix="D">
+<gates>
+<gate name="G$1" symbol="TVS-QUAD-CLAMP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT563">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IO1" pad="1"/>
+<connect gate="G$1" pin="IO2" pad="3"/>
+<connect gate="G$1" pin="IO3" pad="4"/>
+<connect gate="G$1" pin="IO4" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PGB102ST23" prefix="D">
+<gates>
+<gate name="G$1" symbol="DUAL-TVS-BIDIRECTIONAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="A" pad="3"/>
+<connect gate="G$1" pin="C1" pad="1"/>
+<connect gate="G$1" pin="C2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PGB1010402" prefix="D">
+<gates>
+<gate name="G$1" symbol="TVS-BIDIRECTIONAL" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="TVS0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
